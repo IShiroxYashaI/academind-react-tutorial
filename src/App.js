@@ -25,11 +25,6 @@ const INITIAL_EXPENSES = [
   },
 ];
 
-const addExpenseHandler =expense=>{
-  console.log('In app.js');
-  console.log(expense);
-};
-
 const App = () => {
   const [expenses, setExpenses] = useState(INITIAL_EXPENSES);
   // return React.createElement(
